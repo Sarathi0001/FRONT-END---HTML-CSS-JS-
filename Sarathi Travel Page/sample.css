@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap');
+
+body {
+    font-family:sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Start */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0,0,0,0.5);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.page-logo a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: rgb(27, 204, 195);
+    text-shadow: 1px 1px 2px black;
+    font-size: 40px;
+}
+
+header ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+header ul a {
+    text-decoration: none;
+    padding: 20px;
+    margin: 20px;
+    color: aqua;
+    text-shadow: 1px 1px 2px black;
+}
+
+header ul a:hover {
+    background-color: aqua;
+    color: black;
+    border-radius: 10px;
+}
+
+/* Header end */
+
+.hero {
+    height: 607px;
+    background-image: url(./Images/travel-image.jpg);
+    background-position:center;
+    background-size: cover;
+    position: relative;
+}
+
+/* main start */
+
+.hero-content {
+    position: absolute;
+    top: 300px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+    margin: 0 auto;
+    width: 400px;
+    padding: 30px;
+    color: white;
+    border-radius: 20px;
+}
+
+.hero-content a {
+    text-decoration: none;
+    margin: 20px;
+    padding: 10px 10px;
+    color: aqua;
+    text-shadow: 1px 1px 2px black;
+}
+
+.hero-content a:hover {
+    background-color: aqua;
+    color: black;
+    border-radius: 10px;
+}
+
+.highlights {
+    text-align: center;
+    background-image: linear-gradient(rgb(143, 183, 235), rgb(45, 55, 190), rgb(2, 2, 54));
+}
+
+.highlights h2 {
+    padding: 20px;
+    margin: 0px;
+}
+
+.Destinations {
+    justify-content: center;
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+
+.Destinations img {
+    height: 200px;
+    width: 100%;
+    border-radius: 20px;
+
+}
+
+.Destination {
+    margin: 20px;
+    object-fit: cover;
+}
+
+/* main end */
+
+/* footer start */
+
+footer {
+    display: flex;
+    margin: 0;
+    background-color: gray;
+    justify-content: center;
+}
+
+footer img {
+    width: 70px;
+    padding: 10px;
+}
+
+/* footer  */
+
